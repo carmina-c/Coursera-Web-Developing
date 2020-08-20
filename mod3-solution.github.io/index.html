@@ -1,36 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Module 3 assignment</title>
-    <link rel="stylesheet"  type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
-<body>
-  <header><h1>Our menu</h3></header>
-  <div class="row">
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <span id="casuta"> Chicken </span>
-      <p id="margini">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-         Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <span id="casuta"> Beef </span>
-      <p id="margini">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-         Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-    </div>
-    <div class="col-md-4 col-sm-12 col-xs-12">
-      <span id="casuta"> Sushi </span>
-      <p id="margini">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-         Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-    </div>
-  </div>
+  <body>
+    
+    <!--Header-->
 
-</body>
+    <header>
+      <nav class="navbar" id="top">
+        <div class="container-fluid">
+      
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" href="#">Food, LLC</a>
+          </div>
+      
+          <div class="collapse" id="myNavbar">
+            <ul class="nav navbar-nav visible-xs">
+              <li><a class="menu-item" href="#">Chicken</a></li>
+              <li><a class="menu-item" href="#">Beef</a></li> 
+              <li><a class="menu-item" href="#">Sushi</a></li> 
+            </ul>
+          </div>
+      
+        </div>
+      </nav>
+    
+      <h1 class="text-center">Our menu</h1>
+    </header>
+    
+    <!--End of Header-->
+    <!--Main Page-->
+
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12 box">
+        <span id="title"> Chicken </span>
+        <p id="margini">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+          consequat massa quis enim.
+        </p>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 box">
+        <span id="title"> Beef </span>
+        <p id="margini">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+          consequat massa quis enim.
+        </p>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12 box">
+        <span id="title"> Sushi </span>
+        <p id="margini">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+          consequat massa quis enim.
+        </p>
+      </div>
+    </div>
+
+    <!--End of Main Page-->
+
+
+  </body>
 </html>
-
