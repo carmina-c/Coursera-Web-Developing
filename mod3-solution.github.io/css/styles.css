@@ -37,10 +37,10 @@ div > div {
 
 #casuta {
     background-color: grey;
-    border: 1px solid black;
     position: absolute;
     top: 0;
-    right: 0;
+    text-align: center;
+    text-emphasis-style: bold;
 }
 
 
